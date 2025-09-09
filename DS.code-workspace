@@ -1,6 +1,7 @@
 {
     "folders": [
         {
+            "name": "DS",
             "path": "."
         }
     ],
@@ -9,9 +10,9 @@
         "files.exclude": {
             "**/.git": true,
             "**/.DS_Store": true,
-            "**/.gitignore": true,
+            "**/.gitignore": false,
             ".vscode": true,
-            "DS.code-workspace": true
+            "DS.code-workspace": false
         },
         "code-runner.executorMap": {
             "cpp": "cd $dir/.. && mkdir -p bin && g++ src/$fileName -o bin/$fileNameWithoutExt && ./bin/$fileNameWithoutExt"
